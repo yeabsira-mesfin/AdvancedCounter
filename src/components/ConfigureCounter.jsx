@@ -1,6 +1,9 @@
-import React,{useState} from "react";
+import {useState} from "react";
+
+import {log} from '../log'
 
 export default function ConfigureCounter({onSet}) {
+    log('<ConfigureCounter/>',1)
     const [enteredNumber, setEnteredNumber] = useState(0);
    
     function handleChange(event) {
