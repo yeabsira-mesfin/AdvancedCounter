@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header id="main-header">
       <img src={logoImg} alt="Magnifying glass" />
-      <h1>React - Behind The Scenes</h1>
+      <h1>Advanced Counter</h1>
     </header>
   );
 }
