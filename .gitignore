@@ -22,3 +22,14 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Secure AI application
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+data/
+dashboard/node_modules/
+dashboard/dist/
+*.log
